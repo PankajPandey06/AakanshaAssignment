@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalletHub Facebook Test Suite" duration-ms="19896" started-at="2019-06-25T15:58:03Z" finished-at="2019-06-25T15:58:22Z">
+    <groups>
+    </groups>
+    <test name="WalletHub Facebook Test" duration-ms="19896" started-at="2019-06-25T15:58:03Z" finished-at="2019-06-25T15:58:22Z">
+      <class name="com.qa.facebook.Facebook">
+        <test-method status="PASS" signature="browserLaunchTest()[pri:0, instance:com.qa.facebook.Facebook@6fffcba5]" name="browserLaunchTest" is-config="true" duration-ms="13170" started-at="2019-06-25T21:28:03Z" finished-at="2019-06-25T21:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchTest -->
+        <test-method status="PASS" signature="facebookLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.facebook.Facebook@6fffcba5]" name="facebookLoginTest" duration-ms="5175" started-at="2019-06-25T21:28:16Z" finished-at="2019-06-25T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kjnjknkjn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nknknnjk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLoginTest -->
+        <test-method status="PASS" signature="statusDisplay()[pri:1, instance:com.qa.facebook.Facebook@6fffcba5]" name="statusDisplay" duration-ms="1" started-at="2019-06-25T21:28:21Z" finished-at="2019-06-25T21:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusDisplay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.facebook.Facebook@6fffcba5]" name="tearDown" is-config="true" duration-ms="1527" started-at="2019-06-25T21:28:21Z" finished-at="2019-06-25T21:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.facebook.Facebook -->
+    </test> <!-- WalletHub Facebook Test -->
+  </suite> <!-- WalletHub Facebook Test Suite -->
+</testng-results>

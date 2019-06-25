@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WalletHub Facebook Test Suite]">
+  <parameter name="password" value="nknknnjk"/>
+  <parameter name="username" value="kjnjknkjn"/>
+  <test name="WalletHub Facebook Test">
+    <parameter name="password" value="nknknnjk"/>
+    <parameter name="username" value="kjnjknkjn"/>
+    <classes>
+      <class name="com.qa.facebook.Facebook"/>
+    </classes>
+  </test> <!-- WalletHub Facebook Test -->
+</suite> <!-- Failed suite [WalletHub Facebook Test Suite] -->

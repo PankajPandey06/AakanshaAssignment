@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="WalletHub Facebook Test Suite">
+  
+    <test name="WalletHub Facebook Test">
+    
+    <parameter name ="username" value = "kjnjknkjn" />
+    <parameter name ="password" value = "nknknnjk" />
+    
+    <classes>
+      <class name="com.qa.facebook.Facebook"/>
+     
+    </classes>
+  </test>
+  
+  
+</suite>
